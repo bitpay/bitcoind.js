@@ -20,6 +20,8 @@ making all useful bitcoind functions asynchronous (with the exception of the wal
 
 - If target platform is Mac OS X, then OS X >= 10.9, Clang and associated linker.
 
+- This is only known to run on Nodejs > 0.12 (any node versions using v8 with Eternal Functions)
+
 ##### Building
 
 ``` bash
