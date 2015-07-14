@@ -5,8 +5,7 @@ node_js:
 addons:
   apt:
     packages:
-      - libboost-all-dev
-      - libboost-chrono1.48-dev
+      - libboost1.48-all-dev
 before_install:
   - git config --global user.email "dev@bitpay.com"
   - git config --global user.name "BitPay, Inc."
