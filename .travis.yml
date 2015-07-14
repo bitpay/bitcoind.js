@@ -1,11 +1,7 @@
 language: cpp
-sudo: false
 node_js:
   - "0.12"
-addons:
-  apt:
-    packages:
-      - libboost1.48-all-dev
 before_install:
+  - sudo apt-get install libboost1.48-all-dev
   - git config --global user.email "dev@bitpay.com"
   - git config --global user.name "BitPay, Inc."
