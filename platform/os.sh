@@ -75,12 +75,8 @@ if test -z "$1" -o x"$1" = x'thread'; then
 fi
 
 if test -z "$1" -o x"$1" = x'lib'; then
-  if test -e "${os_dir}/libbitcoind.${ext}" -o -e "${os_dir}/lib/libbitcoind.${ext}"; then
-    if test -e "${os_dir}/lib/libbitcoind.${ext}"; then
-      echo -n "$(pwd)/platform/${os}/lib/libbitcoind.${ext}"
-    else
-      echo -n "$(pwd)/platform/${os}/libbitcoind.${ext}"
-    fi
+  if test -e "${os_dir}/libbitcoind.${ext}"; then
+    echo -n "$(pwd)/platform/${os}/libbitcoind.${ext}"
   else
     echo -n "${BITCOIN_DIR}/src/.libs/libbitcoind.${ext}"
   fi
