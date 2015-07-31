@@ -1,7 +1,7 @@
 bitcoind.js
 =======
-[![Build Status](https://img.shields.io/travis/bitpay/bitcoind.js.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcoind.js)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind.js.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind.js)
+
+**Notice: bitcoind.js can be found as [Bitcore Node](https://github.com/bitpay/bitcore-node), and this repository is no longer maintained.**
 
 A Node.js module that adds a native interface to Bitcoin Core for querying information about the Bitcoin blockchain. Bindings are linked to Bitcore Core compiled as a shared library.
 
